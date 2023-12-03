@@ -14,10 +14,15 @@ public class Q_08_Compound_Interest {
      float n = sc.nextInt();
      float t = sc.nextInt();
 
-     double CI = p * Math.pow((1 + r/n), n*t );
+     double total = p * Math.pow((1 + r/n), n*t );
+     System.out.println(total);
+     total = total * p;
 
-     System.out.println("Compound Interest = " + CI );
+     double CI = total - p;
 
+      System.out.println("Total Amount = " + total + "\n Compound Interest = Total Amount - Principal Amount =  " + CI );
+
+     
 
     }
 }
