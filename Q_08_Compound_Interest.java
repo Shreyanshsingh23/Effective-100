@@ -7,7 +7,7 @@ public class Q_08_Compound_Interest {
     
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the value of Principal amount \n Annual rate(in %) \n number of times that interest is compounded per unit time \n time the money is invested/borrowed for (in years), respectively ");
+        System.out.println("Enter the value of Principal amount \n Annual rate(in %) \n number of times that interest is compounded per unit time \n time the money is invested/borrowed for (in years), respectively : ");
 
      float p = sc.nextInt();
      float r = sc.nextInt();
@@ -15,9 +15,9 @@ public class Q_08_Compound_Interest {
      float t = sc.nextInt();
 
      double total = p * Math.pow((1 + r/n), n*t );
-     System.out.println(total);
+     
      total = total * p;
-
+     System.out.println(total);
      double CI = total - p;
 
       System.out.println("Total Amount = " + total + "\n Compound Interest = Total Amount - Principal Amount =  " + CI );
