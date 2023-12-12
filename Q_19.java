@@ -6,6 +6,8 @@ public class Q_19 {
 
         Scanner sc = new Scanner(System.in);
 
+         
+
         System.out.println("Please enter the current year :- ");
 
         int year = sc.nextInt();
