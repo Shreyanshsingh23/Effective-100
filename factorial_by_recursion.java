@@ -22,7 +22,9 @@ public class factorial_by_recursion {
         }
 
         else{
-            return a * factorial(a-1);
+            int fac =  a * factorial(a-1);
+
+            return fac;
         }
     }
     
