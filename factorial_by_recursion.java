@@ -13,7 +13,7 @@ public class factorial_by_recursion {
 
         int fac = factorial(n);
 
-        System.out.println(fac);
+       System.out.println(fac);
     }
 
     static int factorial(int a){
